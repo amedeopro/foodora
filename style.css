@@ -59,3 +59,12 @@
   float: left;
   color: #D70F64
 }
+
+.jumbo{
+  background-image: url(img/sfondo1.jpg);
+  background-position: 150% 0 ;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
