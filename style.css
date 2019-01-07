@@ -103,6 +103,7 @@
 }
 
 .delivery, .pick-up{
+  cursor: pointer;
   border: none;
   background: #C50B5C;
   padding: 20px;
