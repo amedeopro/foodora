@@ -62,9 +62,48 @@
 
 .jumbo{
   background-image: url(img/sfondo1.jpg);
-  background-position: 150% 0 ;
-  background-size: 50%;
+  background-position: 160% 0 ;
+  background-size: 60%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 500px;
+  height: 700px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-testo-cerca{
+  width: 70%;
+  margin: auto;
+}
+
+.testo h1{
+  font-weight: normal;
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+.cerca{
+  width: 55%;
+  height: auto;
+  padding: 15px;
+  box-shadow: 0px 0px 17px 0px rgba(181,181,181,1);
+}
+.cerca p{
+  display: inline-block;
+}
+
+input[type=text]{
+  width: 500px;
+  font-size: 3rem;
+  display: inline-block;
+}
+
+.delivery, .pick-up{
+  border: none;
+  background: #C50B5C;
+  padding: 20px;
+  color: white;
+  height: 100%;
 }
