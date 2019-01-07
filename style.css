@@ -140,11 +140,14 @@
   z-index: 1
 }
 
+.testo-sfondo{
+  z-index: -1;
+}
+
 .testo-sfondo h2{
   opacity: .5;
   color: lightgrey;
   font-size: 160px;
-  z-index: -1;
 }
 
 .card-container{
